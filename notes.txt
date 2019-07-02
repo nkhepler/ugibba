@@ -1,0 +1,29 @@
+25 scaffolds recovered during BLAST searches
+
+3 distinct portions of scaffold 00016 returned BLAST results.
+	first two look bona fide
+	third is only 1 BLAST hit and can't find anything exp-like in
+	translation. calling it junk and not including.
+
+2 exps on scaffold 00033
+	pretty close but couldn't build single consensus. needed 2.
+
+3 distinct blast hits on scaffold 00041
+	similar to 00016: 2 are bona fide exps, third is not
+
+scf00260 exp looks a little weird. maybe missing a piece near beginning.
+
+28 so far
+
+
+
+scf00260 predicted to have 2 different splice variants (despite one being all one open reading frame). not sure which is 'better'
+
+scf00318 missing start codon but full exp appears there
+	saved AUGUSTUS output from original and from one that i removed STOP from what
+	looks like signal peptide
+
+
+Summary:
+28 unique expansion-like genes identified. Scf00318 is annotated with a stop codon in signal peptide. I removed this and named Scf00318_edited. Scf00260 has a extremely divergent domain 1 region but domain 2 looks more like an expansin. Built a tree based on D2 (NJ only) for seeing where 260 branches. Did not include 260 in full-length EXPA tree.
+

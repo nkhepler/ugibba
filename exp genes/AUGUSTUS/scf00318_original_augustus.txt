@@ -1,0 +1,47 @@
+# This output was generated with AUGUSTUS (version 3.3.1).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. KÃ¶nig, L. Gerischer, L. Romoth and Katharina Hoff.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# arabidopsis version. Using default transition matrix.
+# We have hints for 0 sequences and for 0 of the sequences in the input set.
+#
+# ----- prediction on sequence number 1 (length = 3111, name = unnamed-1) -----
+#
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+unnamed-1	AUGUSTUS	gene	1386	2618	0.18	+	.	g1
+unnamed-1	AUGUSTUS	transcript	1386	2618	0.18	+	.	g1.t1
+unnamed-1	AUGUSTUS	tss	1386	1386	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+unnamed-1	AUGUSTUS	exon	1386	1561	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+unnamed-1	AUGUSTUS	start_codon	1558	1560	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+unnamed-1	AUGUSTUS	initial	1558	1561	0.64	+	0	transcript_id "g1.t1"; gene_id "g1";
+unnamed-1	AUGUSTUS	internal	1639	1951	0.63	+	2	transcript_id "g1.t1"; gene_id "g1";
+unnamed-1	AUGUSTUS	terminal	2035	2338	0.45	+	1	transcript_id "g1.t1"; gene_id "g1";
+unnamed-1	AUGUSTUS	intron	1562	1638	0.64	+	.	transcript_id "g1.t1"; gene_id "g1";
+unnamed-1	AUGUSTUS	intron	1952	2034	0.46	+	.	transcript_id "g1.t1"; gene_id "g1";
+unnamed-1	AUGUSTUS	CDS	1558	1561	0.64	+	0	transcript_id "g1.t1"; gene_id "g1";
+unnamed-1	AUGUSTUS	CDS	1639	1951	0.63	+	2	transcript_id "g1.t1"; gene_id "g1";
+unnamed-1	AUGUSTUS	exon	1639	1951	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+unnamed-1	AUGUSTUS	CDS	2035	2338	0.45	+	1	transcript_id "g1.t1"; gene_id "g1";
+unnamed-1	AUGUSTUS	exon	2035	2618	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+unnamed-1	AUGUSTUS	stop_codon	2336	2338	.	+	0	transcript_id "g1.t1"; gene_id "g1";
+unnamed-1	AUGUSTUS	tts	2618	2618	.	+	.	transcript_id "g1.t1"; gene_id "g1";
+# coding sequence = [atggggggcgcgtgtgggtatgggaatctgtatagccagggctacggcaccagcacggctgccttgagcactgctctgt
+# ttaacaatggcctcacttgcggcgcttgctacgagctgacctgcgccggcgagaaacggtggtgcaaccccggaacaatcaccgtcaccgccacaaac
+# ttctgcccgcccaaccccgccctccccaacgacaacggcggttggtgcaacccccctcgccaacacttcgatcttgctgaacctgcttacttgcaaat
+# cgctcagtaccgcgctggaatcgtccccgtttccttccgaagggtgccctgcgtgaagaagggggggataaggttcaccatcaatggccactcctact
+# tcaacttggtcctggtgacgaatgtgggcggtgcaggggacatccacgcggtggccgtcaagggttccaggacgggatggcagcagctggcccggaac
+# tggggccagaattggcagagcaacgggttcctcaacggccaggcgctgtcctttcaagtgaccgcaagcgatggccgcactgtcaccagcctcaacgt
+# ggcgccaccgggctggcagttcggccagaccttcgagggcggccagttctga]
+# protein sequence = [MGGACGYGNLYSQGYGTSTAALSTALFNNGLTCGACYELTCAGEKRWCNPGTITVTATNFCPPNPALPNDNGGWCNPP
+# RQHFDLAEPAYLQIAQYRAGIVPVSFRRVPCVKKGGIRFTINGHSYFNLVLVTNVGGAGDIHAVAVKGSRTGWQQLARNWGQNWQSNGFLNGQALSFQ
+# VTASDGRTVTSLNVAPPGWQFGQTFEGGQF]
+# end gene g1
+###
+# command line:
+# /data/www/augustus/augustus/bin/augustus --species=arabidopsis --strand=both --singlestrand=false --genemodel=partial --codingseq=on --sample=100 --keep_viterbi=true --alternatives-from-sampling=true --minexonintronprob=0.2 --minmeanexonintronprob=0.5 --maxtracks=2 /data/www/augustus/webservice/data/AUG-379229574/input.fa --exonnames=on
